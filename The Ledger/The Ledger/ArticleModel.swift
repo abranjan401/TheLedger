@@ -1,4 +1,8 @@
 import Foundation
+
+// Main app-level Article model used throughout the UI
+
+// Conforms to Identifiable to work easily with SwiftUI lists
 struct Article: Identifiable {
     let id = UUID()
     
@@ -27,6 +31,8 @@ struct Article: Identifiable {
     }
 }
 
+// Represents the raw article object received from the News API.
+// This is decoded directly from JSON.
 struct DecodableArticle: Codable {
     let source: Source?
     let title: String
@@ -37,11 +43,15 @@ struct DecodableArticle: Codable {
     let content: String?
 }
 
+// Nested API model representing an article's source information.
+// (e.g., CNN, BBC, Reuters)
 struct Source: Codable {
     let id: String?
     let name: String?
 }
 
+// Top-level response object returned by the News API.
+// Contains metadata and an array of article objects.
 struct NewsResponse: Codable {
     let status: String
     let totalResults: Int

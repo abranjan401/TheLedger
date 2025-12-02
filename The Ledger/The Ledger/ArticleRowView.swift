@@ -1,39 +1,38 @@
 import SwiftUI
 
+// available bias lables for users to choose from
 fileprivate let biasOptions = ["Neutral", "Liberal", "Conservative", "Libertarian", "Populist"]
 
 struct ArticleRowView: View {
     
-    // @Binding to the Article from the ContentView's @State array.
+    // reference to the article model passed from the parent list
     @Binding var article: Article
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            
-            // --- Article Info Section ---
-            
-            // 1. THE ADDED FEATURE: Wrap the Title in a Link
+                      
+            // Display article title as a tappable link when URL is valid
             if let url = URL(string: article.url) {
                 Link(destination: url) {
                     Text(article.title)
                         .font(.headline)
-                        .foregroundColor(.blue) // Indicate it's a link
+                        .foregroundColor(.blue)
                         .multilineTextAlignment(.leading)
                 }
             } else {
-                // Fallback if the URL is invalid
+                // Fallback for invalid or missing URL
                 Text(article.title)
                     .font(.headline)
             }
             
+            // Display article metadata (source + date)
             Text("Source: \(article.sourceName ?? "N/A") | Published: \(article.publishedAt.prefix(10))")
                 .font(.caption)
                 .foregroundColor(.gray)
             
             Divider()
-            
-            // --- User Analysis Section ---
-            
+             
+            // Bias selection menu
             HStack {
                 Text("Your Bias Analysis:")
                     .font(.subheadline)
@@ -49,6 +48,7 @@ struct ArticleRowView: View {
                 .cornerRadius(5)
             }
             
+            // Emotional tone scoring (Stepper: -2 to +2)
             HStack {
                 Text("Emotional Tone (Score: \(article.emotionalTone))")
                     .font(.subheadline)
