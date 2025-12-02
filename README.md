@@ -41,6 +41,7 @@ APIs: NewsAPI [API Website](https://newsapi.org/)
 ---
 
 <h1>Technical Breakdown</h1>
+
 Data Models -> Article.swift contains the app's core model and the Codable structs (DecodableArticle, NewsResponse) required for JSON decoding.
 
 Networking -> NewsService.swift uses a static function (searchArticles) to handle URLSession and data mapping, converting the raw API response to the [Article] array.
@@ -62,8 +63,11 @@ List Structure -> The ContentView uses a vertical VStack to position the custom 
   requiring verification that it was correctly defined within the ContentView struct.
 
 <h2>Future Implementation:</h2>
+
 - Having a bank to store the user's analyzed articles and ratings across app sessions
+  
 - Having a public type of forum for users to discuss articles with other users
+  
 - Having different screens such as home screen, main view, bank, public forum, etc..
   lends itself to also allowing users to have accounts to interact with other users
 
@@ -71,6 +75,7 @@ List Structure -> The ContentView uses a vertical VStack to position the custom 
     the user input text box is located, 
     alongside the home button (takes user back to screen), 
     and the app logo:</h3>
+    
 <img width="200" height="414" alt="home" src="https://github.com/user-attachments/assets/53e059e9-06ef-4dc5-bf36-d135b1cbe44d" />
 
 <h3>here is a search query "politics" to which current articles are pulled from the API on the interface:</h3>
