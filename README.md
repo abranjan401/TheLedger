@@ -23,28 +23,14 @@ reading headlines, users can actively assign local metrics such as **Political B
 - Home State Reset: The dedicated "Home" button quickly clears the search results and resets the input field.
 
 <h2>Tools Used</h2>
+
 Language: Swift 5.5+
 
 Framework: SwiftUI
 
 Networking: URLSession, Async/Await
 
-APIs: NewsAPI <a href="https://newsapi.org/"></a>
-
-<h3>here is the home screen where 
-    the user input text box is located, 
-    alongside the home button (takes user back to screen), 
-    and the app logo:</h3>
-<img width="200" height="414" alt="home" src="https://github.com/user-attachments/assets/53e059e9-06ef-4dc5-bf36-d135b1cbe44d" />
-
-<h3>here is a search query "politics" to which current articles are pulled from the API on the interface:</h3>
-<img width="200" height="414" alt="search" src="https://github.com/user-attachments/assets/4db4f420-d780-41c8-8e5f-58819f99780a" />
-
-<h3>here are the two ways users can select the ratings-- political bias and emotional tone:</h3>
-<img width="250" height="61" alt="# rating" src="https://github.com/user-attachments/assets/77be7edb-ac05-4fe5-b532-c316430dd3b6" /> <img width="300" height="226" alt="bias rating" src="https://github.com/user-attachments/assets/7970dce2-75e1-44ad-9ad8-4defebf30eef" />
-
-<h3>here the user is directly directed to the article by clicking on the link!</h3>
-<img width="200" height="438" alt="article" src="https://github.com/user-attachments/assets/872e2189-1f88-450f-ba99-2d2c8eb18df6" />
+APIs: NewsAPI <a href="https://newsapi.org/">API Website</a>
 
 ---
 
@@ -74,3 +60,18 @@ List Structure -> The ContentView uses a vertical VStack to position the custom 
 - Having a public type of forum for users to discuss articles with other users
 - Having different screens such as home screen, main view, bank, public forum, etc..
   lends itself to also allowing users to have accounts to interact with other users
+
+<h3>here is the home screen where 
+    the user input text box is located, 
+    alongside the home button (takes user back to screen), 
+    and the app logo:</h3>
+<img width="200" height="414" alt="home" src="https://github.com/user-attachments/assets/53e059e9-06ef-4dc5-bf36-d135b1cbe44d" />
+
+<h3>here is a search query "politics" to which current articles are pulled from the API on the interface:</h3>
+<img width="200" height="414" alt="search" src="https://github.com/user-attachments/assets/4db4f420-d780-41c8-8e5f-58819f99780a" />
+
+<h3>here are the two ways users can select the ratings-- political bias and emotional tone:</h3>
+<img width="250" height="61" alt="# rating" src="https://github.com/user-attachments/assets/77be7edb-ac05-4fe5-b532-c316430dd3b6" /> <img width="300" height="226" alt="bias rating" src="https://github.com/user-attachments/assets/7970dce2-75e1-44ad-9ad8-4defebf30eef" />
+
+<h3>here the user is directly directed to the article by clicking on the link!</h3>
+<img width="200" height="438" alt="article" src="https://github.com/user-attachments/assets/872e2189-1f88-450f-ba99-2d2c8eb18df6" />
