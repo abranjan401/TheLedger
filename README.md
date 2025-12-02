@@ -22,6 +22,15 @@ reading headlines, users can actively assign local metrics such as **Political B
 - Full Article Access: Article titles are wrapped in a SwiftUI Link to immediately open the source URL in the user's external web browser.
 - Home State Reset: The dedicated "Home" button quickly clears the search results and resets the input field.
 
+<h2>Tools Used</h2>
+Language: Swift 5.5+
+
+Framework: SwiftUI
+
+Networking: URLSession, Async/Await
+
+APIs: NewsAPI <a href="https://newsapi.org/"></a>
+
 <h3>here is the home screen where 
     the user input text box is located, 
     alongside the home button (takes user back to screen), 
@@ -41,7 +50,9 @@ reading headlines, users can actively assign local metrics such as **Political B
 
 <h1>Technical Breakdown</h1>
 Data Models -> Article.swift contains the app's core model and the Codable structs (DecodableArticle, NewsResponse) required for JSON decoding.
+
 Networking -> NewsService.swift uses a static function (searchArticles) to handle URLSession and data mapping, converting the raw API response to the [Article] array.
+
 List Structure -> The ContentView uses a vertical VStack to position the custom title and logo above the scrollable List component.
 
 ---
