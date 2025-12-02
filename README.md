@@ -8,11 +8,18 @@ Bias Beacon is built using SwiftUI and the News API designed to
 engage users in critical analysis of contemporary journalism. Instead of passively 
 reading headlines, users can actively assign local metrics such as **Political Bias** and 
 **Emotional Tone** to each article, fostering media literacy and personal accountability in news consumption.
-<img width="300" height="300" alt="Screenshot 2025-12-02 at 1 29 39 AM" src="https://github.com/user-attachments/assets/6c831940-0c43-4f56-a785-478bb91b43d7" />
-<img width="300" height="300" alt="Screenshot 2025-12-02 at 1 30 24 AM" src="https://github.com/user-attachments/assets/c443df34-82a0-4bad-b229-514f577a23ea" />
-<img width="300" height="300" alt="Screenshot 2025-12-02 at 1 31 03 AM" src="https://github.com/user-attachments/assets/0edf2519-bf85-4c6d-858c-39586efeef57" />
-<img width="300" height="300" alt="Screenshot 2025-12-02 at 1 31 28 AM" src="https://github.com/user-attachments/assets/c762c05e-d204-44be-b324-e06b1d0a219e" />
-<img width="300" height="300" alt="Screenshot 2025-12-02 at 1 32 04 AM" src="https://github.com/user-attachments/assets/a70e10e9-4dbf-4b22-bbc5-8875eb426597" />
+
+<h2>Here is the Home Screen where the user input text box is located, alongside the home button (takes user back to screen), and the app logo:</h2>
+<img width="373" height="775" alt="home" src="https://github.com/user-attachments/assets/53e059e9-06ef-4dc5-bf36-d135b1cbe44d" />
+
+<h2>Here is a search query "Politics" to which current articles are pulled from the API on the interface:</h2>
+<img width="373" height="775" alt="search" src="https://github.com/user-attachments/assets/4db4f420-d780-41c8-8e5f-58819f99780a" />
+
+<h2>Here are the two ways users can select the ratings-- political bias and emotional tone:</h2>
+<img width="349" height="85" alt="# rating" src="https://github.com/user-attachments/assets/77be7edb-ac05-4fe5-b532-c316430dd3b6" /> <img width="373" height="280" alt="bias rating" src="https://github.com/user-attachments/assets/7970dce2-75e1-44ad-9ad8-4defebf30eef" />
+
+<h2>Here the user is directly directed to the article by clicking on the link!</h2>
+<img width="349" height="765" alt="article" src="https://github.com/user-attachments/assets/872e2189-1f88-450f-ba99-2d2c8eb18df6" />
 
 <video src="https://drive.google.com/file/d/1SyTNQYFg6B33r4hvo0vgjzwsrsKe6qFi/view?usp=sharing" controls>
     Your browser does not support the video tag.
