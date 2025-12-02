@@ -1,4 +1,5 @@
-Bypass Beacon
+<h1>Bias Beacon</h1>
+<img width="500" height="500" alt="bi" src="https://github.com/user-attachments/assets/5088708d-6577-4b15-aa4a-269c89522e05" />
 
 A news analysis tool!
 
