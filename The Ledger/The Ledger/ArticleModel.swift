@@ -10,10 +10,10 @@ struct Article: Identifiable {
     let sourceName: String?
     let publishedAt: String
     
-    // We will use String for Bias (e.g., "Neutral", "Liberal")
+    // using String for Bias (ex. "Neutral", "Liberal")
     var bias: String = "Neutral"
     
-    // We will use Int for Emotional Tone (e.g., 0 for Neutral, -2 to 2)
+    // using Int for Emotional Tone (ex. 0 for Neutral, -2 to 2)
     var emotionalTone: Int = 0
     
     // initializing
