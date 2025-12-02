@@ -10,7 +10,7 @@ reading headlines, users can actively assign local metrics such as **Political B
 **Emotional Tone** to each article, fostering media literacy and personal accountability in news consumption.
 
 <h2>Here is the Home Screen where the user input text box is located, alongside the home button (takes user back to screen), and the app logo:</h2>
-<img width="150" height="311" alt="home" src="https://github.com/user-attachments/assets/53e059e9-06ef-4dc5-bf36-d135b1cbe44d" />
+<img width="200" height="414" alt="home" src="https://github.com/user-attachments/assets/53e059e9-06ef-4dc5-bf36-d135b1cbe44d" />
 
 <h2>Here is a search query "Politics" to which current articles are pulled from the API on the interface:</h2>
 <img width="373" height="775" alt="search" src="https://github.com/user-attachments/assets/4db4f420-d780-41c8-8e5f-58819f99780a" />
