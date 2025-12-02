@@ -16,10 +16,10 @@ reading headlines, users can actively assign local metrics such as **Political B
 <img width="200" height="414" alt="search" src="https://github.com/user-attachments/assets/4db4f420-d780-41c8-8e5f-58819f99780a" />
 
 <h2>Here are the two ways users can select the ratings-- political bias and emotional tone:</h2>
-<img width="250" height="61" alt="# rating" src="https://github.com/user-attachments/assets/77be7edb-ac05-4fe5-b532-c316430dd3b6" /> <img width="373" height="280" alt="bias rating" src="https://github.com/user-attachments/assets/7970dce2-75e1-44ad-9ad8-4defebf30eef" />
+<img width="250" height="61" alt="# rating" src="https://github.com/user-attachments/assets/77be7edb-ac05-4fe5-b532-c316430dd3b6" /> <img width="300" height="226" alt="bias rating" src="https://github.com/user-attachments/assets/7970dce2-75e1-44ad-9ad8-4defebf30eef" />
 
 <h2>Here the user is directly directed to the article by clicking on the link!</h2>
-<img width="349" height="765" alt="article" src="https://github.com/user-attachments/assets/872e2189-1f88-450f-ba99-2d2c8eb18df6" />
+<img width="200" height="438" alt="article" src="https://github.com/user-attachments/assets/872e2189-1f88-450f-ba99-2d2c8eb18df6" />
 
 <video src="https://drive.google.com/file/d/1SyTNQYFg6B33r4hvo0vgjzwsrsKe6qFi/view?usp=sharing" controls>
     Your browser does not support the video tag.
