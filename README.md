@@ -13,10 +13,10 @@ reading headlines, users can actively assign local metrics such as **Political B
 <img width="200" height="414" alt="home" src="https://github.com/user-attachments/assets/53e059e9-06ef-4dc5-bf36-d135b1cbe44d" />
 
 <h2>Here is a search query "Politics" to which current articles are pulled from the API on the interface:</h2>
-<img width="373" height="775" alt="search" src="https://github.com/user-attachments/assets/4db4f420-d780-41c8-8e5f-58819f99780a" />
+<img width="200" height="414" alt="search" src="https://github.com/user-attachments/assets/4db4f420-d780-41c8-8e5f-58819f99780a" />
 
 <h2>Here are the two ways users can select the ratings-- political bias and emotional tone:</h2>
-<img width="349" height="85" alt="# rating" src="https://github.com/user-attachments/assets/77be7edb-ac05-4fe5-b532-c316430dd3b6" /> <img width="373" height="280" alt="bias rating" src="https://github.com/user-attachments/assets/7970dce2-75e1-44ad-9ad8-4defebf30eef" />
+<img width="250" height="61" alt="# rating" src="https://github.com/user-attachments/assets/77be7edb-ac05-4fe5-b532-c316430dd3b6" /> <img width="373" height="280" alt="bias rating" src="https://github.com/user-attachments/assets/7970dce2-75e1-44ad-9ad8-4defebf30eef" />
 
 <h2>Here the user is directly directed to the article by clicking on the link!</h2>
 <img width="349" height="765" alt="article" src="https://github.com/user-attachments/assets/872e2189-1f88-450f-ba99-2d2c8eb18df6" />
