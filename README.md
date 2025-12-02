@@ -9,6 +9,19 @@ engage users in critical analysis of contemporary journalism. Instead of passive
 reading headlines, users can actively assign local metrics such as **Political Bias** and 
 **Emotional Tone** to each article, fostering media literacy and personal accountability in news consumption.
 
+---
+
+<h1>Summary</h1>
+<h2>Core Requirements Met:</h2>
+- API Integration: Fetches current and global news headlines based on user search queries from the News API. (Data from an API endpoint, Service Class)
+- Reusable UI: Employs a ForEach loop and the dedicated ArticleRowView for efficient list rendering. (ForEach with reusable subviews)
+- State Management: Utilizes @State (for managing the article list) and @Binding (for passing mutable analysis data to rows) to maintain local user ratings.
+- User Input Components: Includes multiple user inputs: TextField (search input), Picker (for Bias), and Stepper (for Emotional Tone). (2+ unique user input components)
+
+<h2>Other Fun Things!</h2>
+- Full Article Access: Article titles are wrapped in a SwiftUI Link to immediately open the source URL in the user's external web browser.
+- Home State Reset: The dedicated "Home" button quickly clears the search results and resets the input field.
+
 <h3>here is the home screen where 
     the user input text box is located, 
     alongside the home button (takes user back to screen), 
@@ -23,21 +36,6 @@ reading headlines, users can actively assign local metrics such as **Political B
 
 <h3>here the user is directly directed to the article by clicking on the link!</h3>
 <img width="200" height="438" alt="article" src="https://github.com/user-attachments/assets/872e2189-1f88-450f-ba99-2d2c8eb18df6" />
-
-<video src="https://drive.google.com/file/d/1SyTNQYFg6B33r4hvo0vgjzwsrsKe6qFi/view?usp=sharing" controls></video>
-
----
-
-<h1>Summary</h1>
-<h2>Core Requirements Met:</h2>
-- API Integration: Fetches current and global news headlines based on user search queries from the News API. (Data from an API endpoint, Service Class)
-- Reusable UI: Employs a ForEach loop and the dedicated ArticleRowView for efficient list rendering. (ForEach with reusable subviews)
-- State Management: Utilizes @State (for managing the article list) and @Binding (for passing mutable analysis data to rows) to maintain local user ratings.
-- User Input Components: Includes multiple user inputs: TextField (search input), Picker (for Bias), and Stepper (for Emotional Tone). (2+ unique user input components)
-
-<h2>Other Fun Things!</h2>
-- Full Article Access: Article titles are wrapped in a SwiftUI Link to immediately open the source URL in the user's external web browser.
-- Home State Reset: The dedicated "Home" button quickly clears the search results and resets the input field.
 
 ---
 
